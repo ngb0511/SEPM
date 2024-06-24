@@ -1,7 +1,8 @@
 using Entity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Repository;
+using Service.Services;
+using Service.Constracts;
 using System.Security.Cryptography;
 using System.Security.Principal;
 using System.Text;
@@ -10,11 +11,11 @@ using System.Text;
 
 namespace SEProjectManagement.Controllers
 {
-    [Route("api/[controller]")]
+  [Route("api/[controller]")]
     [ApiController]
     public class AccountController : ControllerBase
     {
-        private static IAccountRepository repository = new AccountRepository();
+        private static IAccountService repository = new AccountService();
         private static SEProjectManagementContext _context = new SEProjectManagementContext();
 
         // GET: api/<AccountController>

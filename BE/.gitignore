@@ -1,5 +1,23 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+# vs's temp files
+.vs/
+
+# bin and obj
+**/bin/
+**/obj/
+
+# OS's temp files
+.DS_Store
+Thumbs.db
+
+# useless files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
 # dependencies
 /node_modules
 package-lock.json

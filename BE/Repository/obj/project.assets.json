@@ -2784,9 +2784,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\SEPM\\BE\\Repository\\Repository.csproj",
-      "projectName": "Repository",
-      "projectPath": "C:\\Code\\SEPM\\BE\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Code\\SEPM\\BE\\Repository\\Service.csproj",
+      "projectName": "Service",
+      "projectPath": "C:\\Code\\SEPM\\BE\\Repository\\Service.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
       "outputPath": "C:\\Code\\SEPM\\BE\\Repository\\obj\\",
       "projectStyle": "PackageReference",

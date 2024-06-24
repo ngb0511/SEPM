@@ -1216,7 +1216,7 @@
           "bin/placeholder/Entity.dll": {}
         }
       },
-      "Repository/1.0.0": {
+      "Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1226,10 +1226,10 @@
           "Microsoft.AspNetCore.Cors": "2.2.0"
         },
         "compile": {
-          "bin/placeholder/Repository.dll": {}
+          "bin/placeholder/Service.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Repository.dll": {}
+          "bin/placeholder/Service.dll": {}
         }
       }
     }
@@ -3208,10 +3208,10 @@
       "path": "../Entity/Entity.csproj",
       "msbuildProject": "../Entity/Entity.csproj"
     },
-    "Repository/1.0.0": {
+    "Service/1.0.0": {
       "type": "project",
-      "path": "../Repository/Repository.csproj",
-      "msbuildProject": "../Repository/Repository.csproj"
+      "path": "../Repository/Service.csproj",
+      "msbuildProject": "../Repository/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3219,7 +3219,7 @@
       "EmailService >= 1.0.0",
       "MailKit >= 4.3.0",
       "Microsoft.AspNetCore.Cors >= 2.2.0",
-      "Repository >= 1.0.0",
+      "Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -3261,8 +3261,8 @@
             "C:\\Code\\SEPM\\BE\\EmailService\\EmailService.csproj": {
               "projectPath": "C:\\Code\\SEPM\\BE\\EmailService\\EmailService.csproj"
             },
-            "C:\\Code\\SEPM\\BE\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Code\\SEPM\\BE\\Repository\\Repository.csproj"
+            "C:\\Code\\SEPM\\BE\\Repository\\Service.csproj": {
+              "projectPath": "C:\\Code\\SEPM\\BE\\Repository\\Service.csproj"
             }
           }
         }

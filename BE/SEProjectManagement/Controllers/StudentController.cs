@@ -1,18 +1,19 @@
 using Entity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Repository;
+using Service.Services;
+using Service.Constracts;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace SEProjectManagement.Controllers
 {
-    [Route("api/[controller]")]
+  [Route("api/[controller]")]
     [ApiController]
     public class StudentController : ControllerBase
     {
-        private static IStudentRepository repository = new StudentRepository();
-        private static ICurrentSubjectRepository cSubjectRepository = new CurrentSubjectRepository();
+        private static IStudentService repository = new StudentService();
+        private static ICurrentSubjectService cSubjectService = new CurrentSubjectService();
         private static SEProjectManagementContext _context = new SEProjectManagementContext();
 
         // GET: api/<StudentController>
@@ -66,12 +67,12 @@ namespace SEProjectManagement.Controllers
         [HttpGet("GetCurrentSubject/{id}")]
         public async Task<ActionResult<int>> GetCurrentSubject(int id)
         {
-            //int currentSubject = cSubjectRepository.GetCurrentSubjectByID(id).SubjectId;
+            //int currentSubject = cSubjectService.GetCurrentSubjectByID(id).SubjectId;
             //if (!StudentExists(id))
             //{
             //    return false;
             //}
-            return cSubjectRepository.GetCurrentSubjectByID(id).SubjectId; ;
+            return cSubjectService.GetCurrentSubjectByID(id).SubjectId; ;
         }
 
         // POST api/<StudentController>

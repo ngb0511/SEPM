@@ -14,11 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EmailService\EmailService.csproj" />
-    <ProjectReference Include="..\Repository\Repository.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Files\" />
+    <ProjectReference Include="..\Repository\Service.csproj" />
   </ItemGroup>
 
 </Project>

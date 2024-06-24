@@ -2,20 +2,21 @@ using EmailService;
 using Entity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Repository;
+using Service.Services;
+using Service.Constracts;
 //using Repository.MailService;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace SEProjectManagement.Controllers
 {
-    [Route("api/[controller]")]
+  [Route("api/[controller]")]
     [ApiController]
     public class TopicRegisterController : ControllerBase
     {
-        private static ITopicRegisterRepository repository = new TopicRegisterRepository();
+        private static ITopicRegisterService repository = new TopicRegisterService();
         private static SEProjectManagementContext _context = new SEProjectManagementContext();
-        //private readonly IMailServiceRepository _mailService;
+        //private readonly IMailService _mailService;
 
         // GET: api/<TopicRegisterController>
         [HttpGet("GetAll")]

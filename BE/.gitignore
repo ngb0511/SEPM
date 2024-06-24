@@ -50,6 +50,7 @@ yarn-error.log*
 *.user
 *.userosscache
 *.sln.docstates
+documentlayout.json
 
 ## User-specific files (Mono Auto Generated)
 mono_crash.*

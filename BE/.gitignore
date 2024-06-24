@@ -1,23 +1,5 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# vs's temp files
-.vs/
-
-# bin and obj
-**/bin/
-**/obj/
-
-# OS's temp files
-.DS_Store
-Thumbs.db
-
-# useless files
-*.user
-*.rsuser
-*.suo
-*.userosscache
-*.sln.docstates
-
 # dependencies
 /node_modules
 package-lock.json
@@ -41,3 +23,234 @@ yarn.lock
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+## Ignore Visual Studio temporary files, build results, and
+## build logs.
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## User-specific files (Mono Auto Generated)
+mono_crash.*
+
+## User-specific files (VSCode)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## OS-generated files ##
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## Caches ##
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directory
+.vscode/
+
+# Coverage
+coverage/
+
+# package directories
+node_modules/
+jspm_packages/
+
+# Other files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+## Ignore all bin, obj, and package folders
+bin/
+obj/
+.vs/
+*.pidb
+*.log
+*.cache
+
+# Azure Pipelines
+azure-pipelines.yml
+
+# Mac build artifacts
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xccheckout
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+build/
+captures/
+
+# Python specific
+*.pyc
+__pycache__/
+.python-version
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# IDEs and editors
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+*.sln.docs
+.ionide/
+
+# Dotnet core project files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Docker and Vagrant
+.docker/
+.dockerignore
+.vagrant/
+.vagrant/
+**/__pycache__/
+
+# Auto generated UI
+node_modules
+bower_components
+dist
+out-tsc
+build
+
+# Ignore .NET Core project build outputs
+**/bin/
+**/obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+
+# Mono Auto Generated
+mono_crash.*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework
+Migrations/
+
+# Rider
+.idea/
+.idea/*
+
+# CodeLite
+*.tags
+*.precompiled
+project.tags
+project.workspace
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Executables
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# Other
+.vscode/
+.history/
+dist/
+local.settings.json
+appsettings.json
+appsettings.Development.json
+
+# JetBrains Rider
+.idea/
+.idea/*
+
+# macOS
+*.DS_Store
+*.AppleDouble
+.LSOverride
+**/.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*~

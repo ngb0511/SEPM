@@ -1,128 +1,59 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
-
-# vs's temp files
+# Ignore Visual Studio temporary files
 .vs/
 
-# bin and obj
+# Ignore build output and temp files
 **/bin/
 **/obj/
+**/Debug/
+**/Release/
 
-# OS's temp files
-.DS_Store
-Thumbs.db
-
-# useless files
+# Ignore user-specific files
 *.user
 *.rsuser
 *.suo
 *.userosscache
 *.sln.docstates
+documentlayout.json
 
-# dependencies
+# Ignore dependencies
 /node_modules
 package-lock.json
 yarn.lock
 
-# testing
+# Ignore testing coverage
 /coverage
 
-# production
+# Ignore production build
 /build
 
-# misc
+# Ignore miscellaneous cache files
 .eslintcache
-.DS_Store
-.idea
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-## Ignore Visual Studio temporary files, build results, and
-## build logs.
-## User-specific files
-*.rsuser
-*.user
-*.userosscache
-*.sln.docstates
-documentlayout.json
-
-## User-specific files (Mono Auto Generated)
-mono_crash.*
-
-## User-specific files (VSCode)
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-## OS-generated files ##
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-## Caches ##
-*.pyc
-*.pyo
-*.pyd
-__pycache__/
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# VS Code directory
+# Ignore IDE and editor specific files (e.g., .idea, .vscode)
+.idea/
 .vscode/
 
-# Coverage
-coverage/
-
-# package directories
-node_modules/
-jspm_packages/
-
-# Other files
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-## Ignore all bin, obj, and package folders
-bin/
-obj/
-.vs/
-*.pidb
+# Ignore log files
 *.log
-*.cache
 
-# Azure Pipelines
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
+
+# Ignore folder configuration files
+Desktop.ini
+
+# Ignore Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Ignore Azure Pipelines
 azure-pipelines.yml
 
-# Mac build artifacts
+# Ignore Mac build artifacts
 *.pbxuser
 *.mode1v3
 *.mode2v3
@@ -135,11 +66,10 @@ DerivedData/
 *.ipa
 *.xcuserstate
 
-# Android/IntelliJ
-build/
+# Ignore Android/IntelliJ
 captures/
 
-# Python specific
+# Ignore Python specific files
 *.pyc
 __pycache__/
 .python-version
@@ -149,118 +79,67 @@ ENV/
 env.bak/
 venv.bak/
 
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# IDEs and editors
-.idea/
-*.ntvs*
-*.njsproj
-*.sln.docstates
-*.sln.docs
+# Ignore IDEs and editors
 .ionide/
 
-# Dotnet core project files
+# Ignore .NET Core project files
 project.lock.json
 project.fragment.lock.json
 artifacts/
 
-# ASP.NET Scaffolding
+# Ignore ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
-# Docker and Vagrant
+# Ignore Docker and Vagrant
 .docker/
 .dockerignore
 .vagrant/
-.vagrant/
-**/__pycache__/
 
-# Auto generated UI
-node_modules
-bower_components
-dist
-out-tsc
-build
+# Ignore auto generated UI files
+node_modules/
+bower_components/
+dist/
+out-tsc/
+build/
 
-# Ignore .NET Core project build outputs
-**/bin/
-**/obj/
-**/Debug/
-**/Release/
-
-# User-specific files
-*.rsuser
-*.user
-*.userosscache
-
-# Mono Auto Generated
-mono_crash.*
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# Entity Framework
+# Ignore Entity Framework migrations
 Migrations/
 
-# Rider
+# Ignore JetBrains Rider
 .idea/
-.idea/*
 
-# CodeLite
+# Ignore CodeLite
 *.tags
 *.precompiled
 project.tags
 project.workspace
 
-# Python
+# Ignore Python
 *.py[cod]
-__pycache__/
 *.so
 *.egg
 *.egg-info
 
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Executables
+# Ignore executables
 *.exe
 *.dll
 *.pdb
 *.mdb
-*.log
 
-# Visual Studio Code
-.vscode/
-
-# Other
-.vscode/
-.history/
-dist/
+# Ignore local settings files
 local.settings.json
 appsettings.json
 appsettings.Development.json
 
-# JetBrains Rider
+# Ignore JetBrains Rider
 .idea/
-.idea/*
 
-# macOS
+# Ignore macOS specific files
 *.DS_Store
 *.AppleDouble
 .LSOverride
-**/.DS_Store
 
-# Windows
+# Ignore Windows specific files
 Thumbs.db
 ehthumbs.db
 Desktop.ini
@@ -270,5 +149,5 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# Linux
+# Ignore Linux specific files
 *~

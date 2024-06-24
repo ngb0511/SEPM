@@ -46,7 +46,6 @@ yarn-error.log*
 ## build logs.
 ## User-specific files
 *.rsuser
-*.suo
 *.user
 *.userosscache
 *.sln.docstates
@@ -162,7 +161,6 @@ $RECYCLE.BIN/
 
 # IDEs and editors
 .idea/
-*.suo
 *.ntvs*
 *.njsproj
 *.sln.docstates
@@ -199,7 +197,6 @@ build
 
 # User-specific files
 *.rsuser
-*.suo
 *.user
 *.userosscache
 

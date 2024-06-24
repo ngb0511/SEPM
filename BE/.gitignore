@@ -193,6 +193,8 @@ build
 # Ignore .NET Core project build outputs
 **/bin/
 **/obj/
+**/Debug/
+**/Release/
 
 # User-specific files
 *.rsuser

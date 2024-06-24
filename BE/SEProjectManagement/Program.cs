@@ -1,6 +1,7 @@
 using EmailService;
 using MailKit;
-using Repository.MailService;
+using Service.Constracts;
+using Service.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +21,7 @@ builder.Services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
 
 builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 
-builder.Services.AddTransient<IMailServiceRepository, MailServiceRepository>();
+builder.Services.AddTransient<Service.Constracts.IMailService, Service.Services.MailService>();
 
 builder.Services.AddControllers();
 

@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Code\\SEPM\\BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEA7565E-CA14-4717-AA11-9BE44E383EF3}|SEProjectManagement\\SEProjectManagement.csproj|c:\\code\\sepm\\be\\seprojectmanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEA7565E-CA14-4717-AA11-9BE44E383EF3}|SEProjectManagement\\SEProjectManagement.csproj|solutionrelative:seprojectmanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEA7565E-CA14-4717-AA11-9BE44E383EF3}|SEProjectManagement\\SEProjectManagement.csproj|c:\\code\\sepm\\be\\seprojectmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEA7565E-CA14-4717-AA11-9BE44E383EF3}|SEProjectManagement\\SEProjectManagement.csproj|solutionrelative:seprojectmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DEA7565E-CA14-4717-AA11-9BE44E383EF3}|SEProjectManagement\\SEProjectManagement.csproj|c:\\code\\sepm\\be\\seprojectmanagement\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEA7565E-CA14-4717-AA11-9BE44E383EF3}|SEProjectManagement\\SEProjectManagement.csproj|solutionrelative:seprojectmanagement\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,27 +46,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Code\\SEPM\\BE\\SEProjectManagement\\Program.cs",
-              "RelativeDocumentMoniker": "SEProjectManagement\\Program.cs",
-              "ToolTip": "C:\\Code\\SEPM\\BE\\SEProjectManagement\\Program.cs",
-              "RelativeToolTip": "SEProjectManagement\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T10:50:22.852Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Code\\SEPM\\BE\\SEProjectManagement\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "SEProjectManagement\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Code\\SEPM\\BE\\SEProjectManagement\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "SEProjectManagement\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Code\\SEPM\\BE\\SEProjectManagement\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "SEProjectManagement\\Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Code\\SEPM\\BE\\SEProjectManagement\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "SEProjectManagement\\Controllers\\ProjectController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T10:42:24.225Z",
+              "WhenOpened": "2024-06-24T04:32:21.251Z",
               "EditorCaption": ""
             }
           ]

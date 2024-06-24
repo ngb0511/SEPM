@@ -1,22 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Repository;
+using Service.Services;
 using Entity;
 using DAO;
 using System.Globalization;
 using Microsoft.AspNetCore.Components.Forms;
+using Service.Constracts;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace SEProjectManagement.Controllers
 {
-    [Route("api/[controller]")]
+  [Route("api/[controller]")]
     [ApiController]
     public class RegisterCalendarController : ControllerBase
     {
-        private static IRegisterCalendarRepository repository = new RegisterCalendarRepository();
+        private static IRegisterCalendarService repository = new RegisterCalendarService();
         private static SEProjectManagementContext _context = new SEProjectManagementContext();
-        //private readonly IMailServiceRepository _mailService;
+        //private readonly IMailService _mailService;
 
         // GET: api/<RegisterCalendarController>
         [HttpGet("GetAll")]

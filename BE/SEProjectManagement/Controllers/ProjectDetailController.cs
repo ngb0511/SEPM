@@ -2,19 +2,20 @@ using Entity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
-using Repository;
+using Service.Services;
+using Service.Constracts;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace SEProjectManagement.Controllers
 {
-    [Route("api/[controller]")]
+  [Route("api/[controller]")]
     [ApiController]
     public class ProjectDetailController : ControllerBase
     {
-        private static IProjectDetailRepository repository = new ProjectDetailRepository();
-        private static ITagRepository tagRepository = new TagRepository();
-        private static IProjectRepository projectRepository = new ProjectRepository();
+        private static IProjectDetailService repository = new ProjectDetailService();
+        private static ITagService TagService = new TagService();
+        private static IProjectService ProjectService = new ProjectService();
         private static SEProjectManagementContext _context = new SEProjectManagementContext();
 
         // GET: api/<ProjectDetailController>
@@ -58,7 +59,7 @@ namespace SEProjectManagement.Controllers
 
             for (int i = 0; i < listProjectDetail.Count; i++)
             {
-                tags.Add(tagRepository.GetTagByID(listProjectDetail[i].TagId));
+                tags.Add(TagService.GetTagByID(listProjectDetail[i].TagId));
             }
 
             return tags;

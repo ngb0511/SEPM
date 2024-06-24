@@ -1,18 +1,19 @@
 using Entity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Repository;
+using Service.Services;
+using Service.Constracts;
 using System.Linq;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace SEProjectManagement.Controllers
 {
-    [Route("api/[controller]")]
+  [Route("api/[controller]")]
     [ApiController]
     public class TopicDetailController : ControllerBase
     {
-        private static ITopicDetailRepository repository = new TopicDetailRepository();
+        private static ITopicDetailService repository = new TopicDetailService();
         private static SEProjectManagementContext _context = new SEProjectManagementContext();
 
         // GET: api/<TopicDetailController>
